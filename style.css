@@ -52,20 +52,21 @@ input[type='text']{
 }
 button {
   background: #E27575;
-    border: none;
-    padding: 10px 25px 10px 25px;
-    color: #FFF;
-    box-shadow: 1px 1px 5px #B6B6B6;
-    border-radius: 3px;
-    text-shadow: 1px 1px 1px #9E3F3F;
-    cursor: pointer;
-    margin-left: 35%;
-    margin-bottom: 10px;
-    font-size: 1.4em;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  cursor: pointer;
+  margin-left: 35%;
+  margin-bottom: 10px;
+  font-size: 1.4em;
 }
 button:hover {
-    background: #888;
+  background: #888;
 }
+
 .payments {
   font-size: 1.4em;
   margin-left: 30px;
