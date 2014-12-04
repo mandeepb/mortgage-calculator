@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Morgage Calculator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="main">
+      <h1>Morgage Calculator</h1>
+      <label>
+        <span>Value of the Property:</span>
+      </label>
+      <input type="text" id="value" class="input_box" placeholder="Value"/>
+
+      <label>
+        <span>Down Payment:</span>
+      </label>
+      <input type="text" id="inDown" class="input_box" placeholder="Down payment"/>
+
+      <label>
+        <span>APR (Interest):</span>
+      </label>
+      <input type="text" id="apr" class="input_box" placeholder="Interest"/>
+
+      <label>
+        <span>Period (How long):</span>
+      </label>
+      <input type="text" id="period" class="input_box" placeholder="Period"/>
+
+      <button id="btnCalculate">Calculate Payments</button>
+      <hr/>
+      <p><span class="payments">Total Monthly Payments:</span> <span id="outMonthly"></span></p>
+    </div>
+    <script src="morgage-cal.js"></script>
+  </body>
+</html>
